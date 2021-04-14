@@ -72,6 +72,8 @@ void beep(int interval=100){
     led.off();
 }
 
+
+
 void reset(){
     Serial.println("time out ! reset");
     input="";
